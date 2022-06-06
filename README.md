@@ -4,7 +4,7 @@ HI
 Creating a form right now . 
   Will update the documentation asap.
   <h5>Built using</h5>
-Git
+Git<br>
 GitHub
 GitHub Pages
 HTML5
