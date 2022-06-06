@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Form Project</title>
+</head>
+
+<body>
+        <!--Company Title Centred -->
+    <main id="form-container" class="container">
+        <div class=" text-center mt-4 ">
+            <h1>XYZ Company</h1>
+            <br>
+            <h4>IT Assist Request Form</h4>
+            <br>
+        </div>
+
+    <!--Form Card Layout-->    
+    
+        <div class="row">
+            <div class="col-lg-7 mx-auto">
+                <div class="card mt-2 mx-auto p-4 bg-light">
+                    <div class="card-body bg-light">
+
+                        <!--Form Container-->
+                        <div class="container">
+                            <form id="request-form" role="form">
+                                <div class="controls">
+                                    <!--First and Last Name-->
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="form_name">Firstname *</label>
+                                                <input id="form_name" type="text" name="name" class="form-control"
+                                                    placeholder="Please enter your firstname *" required="required"
+                                                    data-error="Firstname is required.">
+                                                </div>
+                                            </div>
+                                            
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="form_lastname">Lastname *</label>
+                                                <input id="form_lastname" type="text" name="surname"
+                                                    class="form-control" placeholder="Please enter your lastname *"
+                                                    required="required" data-error="Lastname is required.">
+                                            </div>
+                                        </div>
+                                    </div>
+                           
+                                    <!--Description-->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="form_description">Description *</label>
+                                                <textarea id="form_description" name="description" class="form-control"
+                                                    placeholder="Write your description here." rows="4"
+                                                    required="required"
+                                                    data-error="Please, leave description."></textarea>
+                                            </div>
+
+                                            <!--Dates-->
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group" data-provide="datepicker">
+                                                        <label for="form_assigned-date">Assigned Date *</label>
+                                                        <input type="date" class="form-control" required="required"
+                                                        data-error="Assigned Date is required.">
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <div class="form-group" data-provide="datepicker">
+                                                        <label for="form_due-date">Due Date *</label>
+                                                        <input type="date" class="form-control" required="required"
+                                                        data-error="Due Date is required.">
+                                                        
+                                                       
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <!--Drop Down List-->
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="form_status">Status *</label>
+                                                <select id="form_status" name="status" class="form-control"
+                                                    required="required" data-error="Select a response.">
+                                                    <option value="" selected disabled>--Dropdown--</option>
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                </select>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                        <!--Submit Button-->
+                            <div class="col-md-12">
+
+                                    <input type="submit" class="btn btn-success btn-send  pt-2 btn-block
+                            " value="Send Message">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</section>
+</body>
+
+</html>
