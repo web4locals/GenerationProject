@@ -6,7 +6,7 @@ Creating a form right now . <br>
   
 <b>Mission</b>: Create a Task Planner using HTML and CSS<br>
 <b>Channel</b>: via Email ,Slack and Zoom Meeting<br>
-<b>Wirefrane</b>: Using Figma and Adobe as a wireframe tool.<br>
+<b>Wirefrane</b>: Using JIRA as a wireframe tool.<br>
   
   
 <h5>Built using</h5>
