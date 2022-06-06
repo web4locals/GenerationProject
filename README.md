@@ -1,42 +1,44 @@
 # GenerationProject
 HI 
 <h1>We are a team .</h1>
-Creating a form right now . 
-  Will update the documentation asap.
+Creating a form right now . <br>
+  Will update the documentation asap.<br>
   
-<b>Mission</b>: Create a Task Planner using HTML and CSS
-<b>Channel</b>: via Email ,Slack and Zoom Meeting
+<b>Mission</b>: Create a Task Planner using HTML and CSS<br>
+<b>Channel</b>: via Email ,Slack and Zoom Meeting<br>
 <b>Wirefrane</b>: Using Figma and Adobe as a wireframe tool.<br>
   
   
 <h5>Built using</h5>
 <ul>
-  <li>Git</li><br>
-<li>GitHub</li><br>
-<li>GitHub Pages</li><br>
-<li>HTML</li>5<br>
-<li>CSS3</li><br>
+  <li>Git</li>
+<li>GitHub</li>
+<li>GitHub Pages</li>
+<li>HTML</li>
+<li>CSS3</li>
 <li>Bootstrap</li>
-</ul>  
+</ul>  <br>
 
 
 <h5>Purpose of the Project</h5>
-The project shows the HTML and CSS using JiRa and implementing the bootstrap with HTML And CSS.
+The project shows the HTML and CSS using JiRa and implementing the bootstrap with HTML And CSS.<br>
 
 <h4>Author</h4>
 Pooja <br>  
-Dave
+Dave<br>
 
 <h5>References</h5>
-Codecademy<br>
-Stackoverflow<br>
-Google<br>
-Git<br>
-GitHub<br>
-W3School<br>
-Slack<br>
-Bootstrap<br>
-Visual Studio Code<br>
-Zoom
+<ul>
+<li>Codecademy</li>
+<li>Stackoverflow</li>
+<li>Google</li>
+<li>Git</li>
+<li>GitHub</li>
+<li>W3School</li>
+<li>Slack</li>
+<li>Bootstrap</li>
+<li>Visual Studio Code</li>
+<li>Zoom</li>
+ </ul>
 
 
