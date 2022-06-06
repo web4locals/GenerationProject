@@ -11,15 +11,23 @@
 </head>
 
 <body>
+    
         <!--Company Title Centred -->
     <header id="task-container" class="container">
-        <div class=" text-center mt-4 ">
+        <div class=" text-center mt-4 ; color: blue; font-style: italic;">
             <h1>Task-Planner</h1>
+            
+                
             <br>
-            <p>This Temporary Task-Planner will help sort out your teams better!</p>
-            <p>Whether your in a zoom or a chatroom meeting, Just fill out and take a screen shot :)  </p>
+            <p style="color:white; font-style: italic; font-weight: bold;">This Temporary Task-Planner will help sort out your teams better!</p>
+            <p style="color:white;font-style: italic; font-weight: bold;" >Whether your in a zoom or a chatroom meeting, Just fill out and take a screen shot :)  </p>
             <br>
         </div>
+           <style>
+              body {
+                   background-image: url("https://cdn-prod.medicalnewstoday.com/content/images/articles/146/146309/water-molecules.jpg");
+                   } 
+            </style>
     </header>
    <main class="container">
         <div class="row flex-md-rap">
@@ -32,10 +40,12 @@
                 
                 <div class="table">
                   <div class="table-responsive table-md mt-5">
-                    <table class="table table-bordered">
+                    <table class="table table-bordered 2px solid-blue">
                       <thead>
                         <tr>
-                         
+                            <colgroup>
+                                <col span="5" style="background-color: #D6EEEE">
+                              </colgroup>
                           <th>Name:</th>
                           <th class="max-width">Task Description:</th>
                           <th class>Assigned To:</th>
@@ -85,7 +95,16 @@
                   </div>
 
                 </div>
-
+                <div>
+                    <table class = "table 1px solid-blue  font-style:italic;">
+                        <tr>
+                            <td>Please submit the form after filling.Thanks</td>
+                        </tr>
+                    </table>
+                    <button class="someButton font-style: italic;">
+                        Submit
+                    </button>
+                </div>
 
 </main>
 
