@@ -13,26 +13,43 @@
 <body>
     
         <!--Company Title Centred -->
-    <header id="task-container" class="container">
-        <div class=" text-center mt-4 ; color: blue; font-style: italic;">
-            <h1 style="font-size:40px; font-style: italic;color: white;font-weight: bolder;text-shadow: #FC0 1px 0 10px;">Task-Planner</h1>
-            
-                
-            <br>
-            <p style="color:rgb(184, 17, 17); font-style: italic; font-weight: bold;text-shadow: #FC0 1px 0 10px;">This Temporary Task-Planner will help sort out your teams better!</p>
-            <p style="color:rgb(184, 17, 17);font-style: italic; font-weight: bold;text-shadow: #FC0 1px 0 10px;" >Whether your in a zoom or a chatroom meeting, Just fill out and take a screen shot :)  </p>
-            <br>
-        </div>
-           <style>
+<header>
+        <nav class="navbar navbar-expand navbar-dark justify-content-center" style="background-color: rgba(0, 0, 0, 0.26);">
+            <div class="nav navbar-nav ">
+                <a class="nav-item nav-link text-uppercase text active" href="#">Task-Planner <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Project-Repo</a>
+                <a class="nav-item nav-link" href="#">Dave S GitHub</a>
+                <a class="nav-item nav-link" href="#">Poonja's Github</a>
+
+            </div>
+        </nav>
+
+    </header>
+               <style>
               body {
                    background-image: url("https://cdn-prod.medicalnewstoday.com/content/images/articles/146/146309/water-molecules.jpg");
+                   background-repeat: no-repeat;
+                   background-position:center;
+                   background-size:cover;
+                   backdrop-filter: blur(5px);
                    } 
             </style>
-    </header>
-   <main class="container ">
-        <div class="row flex-md-rap; font-style: italic">
+   
+
+    <main id="task-container" class="container d-md-block">
+      <div class=" text-center mt-4 ; color: blue; font-style: italic;">
+          <h1 style="font-size:40px; font-style: italic;color: white;font-weight: bolder;text-shadow: #FC0 1px 0 10px;">Task-Planner</h1>
+          
+              
+          <br>
+          <p style="color:rgb(184, 17, 17); font-style: italic; font-weight: bold;text-shadow: #FC0 1px 0 10px;">This Temporary Task-Planner will help sort out your teams better!</p>
+          <p style="color:rgb(184, 17, 17);font-style: italic; font-weight: bold;text-shadow: #FC0 1px 0 10px;" >Whether your in a zoom or a chatroom meeting, Just fill out and take a screen shot :)  </p>
+          <br>
+      </div>
+
+        <div class="row flex-md-rap text-center">
           <div class="col mb-3">
-            <div class="e-panel card">
+            <div class="e-panel card border-warning">
               <div class="card-body">
                 <div class="card-title">
                   <h4>Container</h4>
@@ -71,8 +88,8 @@
                             </div>
                           </td>
                           <td class="align-middle"><div class="form-group">
-                            <label for="form_status">Status *</label>
-                            <select id="form_status" name="status" class="form-control">
+                            <label for="assigned_to"></label>
+                            <select id="assigned_to" name="status" class="form-control">
                                 <option value="" selected disabled>--Name--</option>
                                 <option>Person 1</option>
                                 <option>Person 2</option>
@@ -82,7 +99,7 @@
                           
                           <td class="text-center align-middle">
                             <div class="form-group" data-provide="datepicker">
-                            <input type="date" class="form-control" m-1></td>
+                            <input type="date" class="form-control" m-1 placeholder="Name"></td>
                           
                             <td class="text-center align-middle">
                                 <div class="custom-control custom-control-inline custom-checkbox m-1 align-top">
@@ -108,9 +125,13 @@
 
 </main>
 
-<footer>FOOTER</footer>
 
+<footer class="page-footer font-small bg-dark">
+  <div class="footer text-center font-weight-bold py-3 text-white">This page is still a work in progress:
+    <a href="#">go back</a>
+  </div>
 
+</footer>
 </body>
 
 </html>
