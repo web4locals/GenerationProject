@@ -16,7 +16,19 @@ Bootstrap
 The project shows the HTML and CSS using JiRa and implementing the bootstrap with HTML And CSS.
 
 <h4>Author</h4>
-Pooja 
+Pooja and  
 Dave
 
-References 
+<h5>References</h5>
+Codecademy
+Stackoverflow
+Google
+Git
+GitHub
+W3School
+Slack
+Bootstrap
+Visual Studio Code
+Zoom
+
+
