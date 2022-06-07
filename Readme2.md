@@ -35,4 +35,4 @@
 
  Fix scematics in html, add a remove button, make it mobile friendly, and start all over again using css grids :P 
  
- Personal skills I need to work on. Time management Communication, Productivity(speed), Bootstaop.
+ Personal skills I need to work on. Time management Communication, Productivity(speed), Bootstrap.
