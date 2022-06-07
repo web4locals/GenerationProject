@@ -7,57 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <title>Task List Project</title>
 </head>
 
 <body>
     
         <!--Company Title Centred -->
-<header>
-        <nav class="navbar navbar-expand navbar-dark justify-content-center" style="background-color: rgba(0, 0, 0, 0.26);">
-            <div class="nav navbar-nav ">
-                <a class="nav-item nav-link text-uppercase text active" href="#">Task-Planner <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">Project-Repo</a>
-                <a class="nav-item nav-link" href="#">Dave S GitHub</a>
-                <a class="nav-item nav-link" href="#">Poonja's Github</a>
-
-            </div>
-        </nav>
-
-    </header>
-               <style>
+    <header id="task-container" class="container">
+        <div class=" text-center mt-4 ; color: blue; font-style: italic;">
+            <h1 style="font-size:40px; font-style: italic;color: white;font-weight: bolder;text-shadow: #FC0 1px 0 10px;">Task-Planner</h1>
+            
+                
+            <br>
+            <p style="color:rgb(184, 17, 17); font-style: italic; font-weight: bold;text-shadow: #FC0 1px 0 10px;">This Temporary Task-Planner will help sort out your teams better!</p>
+            <p style="color:rgb(184, 17, 17);font-style: italic; font-weight: bold;text-shadow: #FC0 1px 0 10px;" >Whether your in a zoom or a chatroom meeting, Just fill out and take a screen shot :)  </p>
+            <br>
+        </div>
+           <style>
               body {
                    background-image: url("https://cdn-prod.medicalnewstoday.com/content/images/articles/146/146309/water-molecules.jpg");
-                   background-repeat: no-repeat;
-                   background-position:center;
-                   background-size:cover;
-                   backdrop-filter: blur(5px);
                    } 
-                   @media screen and (max-width:800px){
-                     main {
-                       display:none;
-                     }
-                     
-                   }
-                   
             </style>
-   
-
-    <main id="task-container" class="container d-md-block">
-      <div class=" text-center mt-4 ; color: blue; font-style: italic;">
-          <h1 style="font-size:40px; font-style: italic;color: white;font-weight: bolder;text-shadow: #FC0 1px 0 10px;">Task-Planner</h1>
-          
-              
-          <br>
-          <p style="color:rgb(184, 17, 17); font-style: italic; font-weight: bold;text-shadow: #FC0 1px 0 10px;">This Temporary Task-Planner will help sort out your teams better!</p>
-          <p style="color:rgb(184, 17, 17);font-style: italic; font-weight: bold;text-shadow: #FC0 1px 0 10px;" >Whether your in a zoom or a chatroom meeting, Just fill out and take a screen shot :)  </p>
-          <br>
-      </div>
-
-        <div class="row flex-md-rap text-center">
+    </header>
+   <main class="container ">
+        <div class="row flex-md-rap;">
           <div class="col mb-3">
-            <div class="e-panel card border-warning">
+            <div class="e-panel card">
               <div class="card-body">
                 <div class="card-title">
                   <h4>Container</h4>
@@ -65,7 +40,7 @@
                 
                 <div class="table">
                   <div class="table-responsive table-md mt-5">
-                    <table id="tbl_posts" class="table table-bordered 2px solid-blue">
+                    <table class="table table-bordered 2px solid-blue">
                       <thead>
                         <tr>
                             <colgroup>
@@ -79,7 +54,7 @@
                         </tr>
                       </thead>
                       
-                      <tbody id="tbl_posts_body">
+                      <tbody>
                         <tr>
 
                           <td class="align-middle text-center">
@@ -96,8 +71,8 @@
                             </div>
                           </td>
                           <td class="align-middle"><div class="form-group">
-                            <label for="assigned_to"></label>
-                            <select id="assigned_to" name="status" class="form-control">
+                            <label for="form_status">Status *</label>
+                            <select id="form_status" name="status" class="form-control">
                                 <option value="" selected disabled>--Name--</option>
                                 <option>Person 1</option>
                                 <option>Person 2</option>
@@ -107,7 +82,7 @@
                           
                           <td class="text-center align-middle">
                             <div class="form-group" data-provide="datepicker">
-                            <input type="date" class="form-control" m-1 placeholder="Name"></td>
+                            <input type="date" class="form-control" m-1></td>
                           
                             <td class="text-center align-middle">
                                 <div class="custom-control custom-control-inline custom-checkbox m-1 align-top">
@@ -116,44 +91,6 @@
                             </div>
                           </td>
                         </tbody>
-                        <tbody id="sample_table">
-                          <tr>
-        
-                            <td class="align-middle text-center">
-                              <div class="form-group">
-                                  
-                                  <input id="name" type="text" name="name" class="form-control">
-                                  </div>
-                             
-                            </td>
-                            <td class="align-middle">
-                              <div class="form-group">
-                                  <textarea id="description" name="description" class="form-control"
-                                      placeholder="Write your description here." rows="4"></textarea>
-                              </div>
-                            </td>
-                            <td class="align-middle"><div class="form-group">
-                              <label for="assigned_to"></label>
-                              <select id="assigned_to" name="status" class="form-control">
-                                  <option value="" selected disabled>--Name--</option>
-                                  <option>Person 1</option>
-                                  <option>Person 2</option>
-                                  <option>Person 3</option>
-                                  <option>Person 4</option>
-                              </select></td>
-                            
-                            <td class="text-center align-middle">
-                              <div class="form-group" data-provide="datepicker">
-                              <input type="date" class="form-control" m-1 placeholder="Name"></td>
-                            
-                              <td class="text-center align-middle">
-                                  <div class="custom-control custom-control-inline custom-checkbox m-1 align-top">
-                                  <input type="checkbox" class="custom-control-input" id="item-1">
-                                      <label class="custom-control-label" for="item-1">tick for yes</label>
-                              </div>
-                            </td>
-                          </tbody>
-
                     </table>
                   </div>
 
@@ -161,56 +98,21 @@
                 <div>
                     <table class = "table 1px solid-blue  font-style:italic;">
                         <tr>
-                            <td>add rows by clicking the button...</td>
+                            <td>Please submit the form after filling.Thanks</td>
                         </tr>
                     </table>
-                    <a class="btn btn-primary add-record" name="add-record" id="add-row" href="#" role="button">Add row</a>
+                    <button class="someButton font-style: italic;">
+                        Submit
+                    </button>
                 </div>
+
                 
+                
+</main>
+
+<footer>FOOTER</footer>
 
 
- </main>
-
-
-<footer class=" nav justify-content-center page-footer font-small bg-dark">
-  <div class="footer text-center font-weight-bold py-3 text-white">This page is still a work in progress:
-    <a href="#">go back</a>
-  </div>
-
-</footer>
 </body>
-<script type="text/javascript">
-  $(document).ready(function(){
-    $('#header').load('#');
-    $('#footer').load('#');
-     jQuery(document).delegate('a.add-record', 'click', function(e) {
-     e.preventDefault();    
-     var content = jQuery('#sample_table tr'),
-     size = jQuery('#tbl_posts >tbody >tr').length + 1,
-     element = null,    
-     element = content.clone();
-     element.attr('id', 'rec-'+size);
-     element.find('.delete-record').attr('data-id', size);
-     element.appendTo('#tbl_posts_body');
-     element.find('.sn').html(size);
-   });
-    jQuery(document).delegate('a.delete-record', 'click', function(e) {
-     e.preventDefault();    
-     var didConfirm = confirm("Are you sure You want to delete");
-     if (didConfirm == true) {
-      var id = jQuery(this).attr('data-id');
-      var targetDiv = jQuery(this).attr('targetDiv');
-      jQuery('#rec-' + id).remove();
-      
-    //regnerate index number on table
-    $('#tbl_posts_body tr').each(function(index){
-        $(this).find('span.sn').html(index+1);
-    });
-    return true;
-  } else {
-    return false;
-  }
- });
-  });
- </script>
+
 </html>
