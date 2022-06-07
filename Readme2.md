@@ -1,4 +1,4 @@
-## This is a quick history of our projects evolvement. I will ad more info later mainly photos for now as I have a few mins to spare....
+## This is a quick history of our projects evolvement. I will add more info later mainly photos for now as I have a few mins to spare....
 
 
 
@@ -31,8 +31,8 @@
 ![Screenshot 2022-06-07 120020](https://user-images.githubusercontent.com/105700512/172302587-9b962826-0e49-4ad4-b35e-1dd6c20aa4d3.png)
 
 
-#Things we would like to acheve.
+#Things we would like to achieve..
 
- Fix scematics in html, add a remove button, make it mobile friendly, and start all over again using css grids :P 
+ Fix schematics in html, add a remove button, make it mobile friendly, and start all over again using css grids :P 
  
  Personal skills I need to work on. Time management Communication, Productivity(speed), Bootstrap.
