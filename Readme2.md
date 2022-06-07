@@ -16,16 +16,21 @@
 ![Brainstorm 2](https://user-images.githubusercontent.com/105700512/172302473-9ab45ca4-2a56-49d9-ab47-501a665bca5e.png)
 
 
-#This is the first new attempt.
+# This is the first new attempt.
 ![First attempt](https://user-images.githubusercontent.com/105700512/172304823-40ae8663-b4a3-4d02-85c8-7fece50113cb.png)
 
 ## Added some color 
 ![Back-ground](https://user-images.githubusercontent.com/105700512/172302645-030ef437-c0e7-41b5-8e2f-e7f49235187a.png)
 
-## 
-![Screenshot 2022-06-07 110945](https://user-images.githubusercontent.com/105700512/172302581-7e92f3f3-1d75-4359-9200-a452612d9e1a.png)
-
+## added auto row 
+![auto rows](https://user-images.githubusercontent.com/105700512/172302581-7e92f3f3-1d75-4359-9200-a452612d9e1a.png)
+## added navbar and footer
 ![Screenshot 2022-06-07 084349](https://user-images.githubusercontent.com/105700512/172302989-8f6d0d46-c2d1-49e7-b003-2c582ed0d844.png)
 
-
+## added more checkboxes
 ![Screenshot 2022-06-07 120020](https://user-images.githubusercontent.com/105700512/172302587-9b962826-0e49-4ad4-b35e-1dd6c20aa4d3.png)
+
+
+#Things we would like to acheve.
+
+ Fix scematics in html, add a remove button, make it mobile friendly, and start all over again using css grids :P
